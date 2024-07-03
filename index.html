@@ -1,11 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>123123</h1>
-</body>
+<html>
+    <head>
+        <!-- meta標籤 -->
+        <meta charset="UTF-8"/>
+        <meta name="description" content="我是個音遊玩家">
+        <meta name="author" content="Leo">
+        <meta name="keywords" content="Leo, html, 自學">
+        <meta name="viewport" conten="width=device-width, initial-scale=1.0" />
+
+        <title>ㄏㄏ</title>
+    </head>
+    <body bgcolor="#FFBFFF">
+        <h1>第一段</h1>
+            <p>
+                2ㄏ
+                <br/><!-- 換行 -->
+                <b>早安ㄏㄏ</b>
+            </p>
+            <hr/><!-- 分隔線 -->
+
+        <h2>連結&圖片</h2>
+            <!-- 圖片 -->
+            <p>呪術廻戦op1</p>
+            <a href="https://www.youtube.com/watch?v=2c_lHmkOq0E&pp=ygURd2hlcmUgb3VyIGJsdWUgaXM%3D">青のすみか lyrics</a>
+            <br/>
+            <!-- 圖片 -->
+            <p>ラプラス可愛です</p>
+            <img src="laplus.png" width="200"/>
+            <p>黃相崴の女僕裝</p>
+            <img src="wai.heic" width="200"/>
+
+        <h2>影片</h2>
+            <!-- 本地影片 -->
+            <video src="IMG_0025.MOV" controls height="300">瀏覽器無法載入</video>
+            <!-- youtube影片 -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2c_lHmkOq0E?si=2UDfEOh9jHayyYoL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <h2>列表&表格</h2>
+        <p>列表</p>
+        <ul style="color:#0000EB">
+            <li>google</li>
+            <li>ig</li>
+            <li>youtube</li>
+        </ul>
+        <ol type="A" style="color:darkviolet;">
+            <li>google</li>
+            <li>ig</li>
+            <li>youtube</li>
+        </ol>
+        <p>表格</p>
+        <table width="200" style="color:rgb(165, 126, 74);">
+            <!-- 一個<tr>佔一行 -->
+            <tr>
+                <!-- 列 -->
+                <td>數學</td>
+                <td>物理</td>
+                <td>化學</td>
+            </tr>
+            <tr>
+                <td>81</td>
+                <td>77</td>
+                <td>95</td>
+            </tr>
+        </table>
+
+        <h2>容器 div & span</h2>
+            <!-- html的容器 div & span -->
+            <div style="color:#DB00DB ;">
+                <!-- css才會用到 可以直接在div後面加css程式 div內的程式都會被套用-->
+                <p>列表</p>
+                <ul>
+                    <li>google</li>
+                    <li>ig</li>
+                    <li>youtube</li>
+                </ul>
+                <ol type="A">
+                    <li>google</li>
+                    <li>ig</li>
+                    <li>youtube</li>
+                </ol>
+                <p>表格</p>
+                <table width="200">
+                    <!-- 一個<tr>佔一行 -->
+                    <tr>
+                        <!-- 列 -->
+                        <td>數學</td>
+                        <td>物理</td>
+                        <td>化學</td>
+                    </tr>
+                    <tr>
+                        <td>81</td>
+                        <td>77</td>
+                        <td>95</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- 舉例 -->
+            <!-- 寬度是多少就佔多少 -->
+            <a href="#">link1</a>
+            <a href="#">link2</a>
+            <!-- 不管怎樣就是佔一整行 -->
+            <p>早安</p>
+            <p>咖啡</p>
+            <p>拿鐵</p>
+            <p>呼拉</p>
+
+            <!-- span與div的差別 -->
+            <!-- 寬度是多少就佔多少 -->
+            <span>span1</span>
+            <span>span2</span>
+            <hr/>
+            <!-- 不管怎樣就是佔一整行 -->
+            <div>div1</div>
+            <div>div2</div>
+
+        <h2>html輸入標籤</h2>
+            <input type="text" placeholder="帳號"/>
+            <br/>
+            <br/>
+            <input type="password" placeholder="密碼"/>
+            <br/>
+            <br/>
+            <input type="date" />
+            <br/>
+            <br/>
+            <input type="range" />
+            <br/>
+            <br/>
+            <input type="file" />
+            <br/>
+            <br/>
+            <input type="checkbox" />check<br/>
+            <input type="radio" name="game" value="phigros"/>phigros<br/>
+            <input type="radio" name="game" value="arcaea"/>arcaea<br/>
+            <input type="radio" name="game" value="pjsk"/>pjsk<br/>
+            <br/>
+            <br/>
+            <textarea>你好</textarea>
+    </body>
 </html>
